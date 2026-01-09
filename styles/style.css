@@ -9,26 +9,26 @@
   font-style: normal;
 }
 
-.header .navbar{
+.header-1 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* border: 2px solid black; */
     padding: 8.5px 120px;
 }
-.header nav img{
+.header-1 nav img{
     width: 139px;
     height: 60px;
     /* border: 2px solid black; */
 }
-.header nav ul {
+.header-1 nav ul {
     display: flex;
     gap:16px;
     list-style-type: none;
     font-weight: 600;
 }
 
-.header nav a {
+.header-1 nav a {
     text-decoration: none;
     color: #000000;
     font-size: 16px;
