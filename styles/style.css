@@ -40,12 +40,17 @@
     border:none;
     border-radius: 5px;
 }
+.btn:hover{
+   box-shadow: 0 0 10px #f2f2f1;
+   cursor: pointer;
+   background-color: #1e683d;
+}
 #banner{
    height: 80vh;
    display: flex;
    justify-content: center;
    align-items: center;
-   border: 2px solid black;
+   /* border: 2px solid black; */
    background-image: url(../assets/hero-bg.png);
    background-position: center;
 }
@@ -102,6 +107,7 @@
    align-items: center;
    gap: 10px;
 }
+
 .banner-button-section .btn-2{
    padding: 16px;
    background-color: transparent;
@@ -109,7 +115,11 @@
    border: 2px solid white;
    border-radius: 5px;
 }
-
+.btn-1:hover , .btn-2:hover{
+   background-color: #1e683d;
+   cursor: pointer;
+   border:none;
+}
 #card-section .card-section-container{
   width: 85%;
   max-width: 1360px;
