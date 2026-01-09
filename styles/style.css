@@ -166,5 +166,54 @@
   font-size: 14px;
   line-height: 20px;
 }
+.second-brain-section-containers{
+   padding: 120px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 60px;
+   /* border: 2px solid black; */
 
-
+}
+.brain-img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.brain-description{
+   /* border: 2px solid black; */
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+.brain-description .color-txt{
+   color:#469165;
+   font-size: 16px;
+   line-height: 20px;
+   margin-bottom: 16px;
+}
+.brain-description .brain-heading{
+   font-size: 48px;
+   max-width: 650px;
+   color: #001931;
+   margin-bottom: 16px;
+}
+.brain-description .brain-paragraph{
+   font-size: 20px;
+   line-height: 24px;
+   color: #627382;
+   max-width: 575px;
+}
+.CheckCircle-containers{
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+.CheckCircle-containers-para{
+    display: flex;
+    align-items: center;
+    gap:6px
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
